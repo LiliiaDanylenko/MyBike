@@ -1,0 +1,12 @@
+.logo {
+  line-height: 0;
+  width: min-content;
+
+  &__image {
+    height: 38px;
+
+    @include onTablet {
+      height: 56px;
+    }
+  }
+}
